@@ -1,0 +1,278 @@
+/*自定义滚动条*/
+
+::-webkit-scrollbar {
+	width: 8px;
+	height: 10px;
+}
+
+::-webkit-scrollbar-track-piece {
+	/*background-color: #CCCCCC;*/
+	-webkit-border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+	height: 8px;
+	background-color: #666;
+	-webkit-border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+	width: 8px;
+	background-color: #CCCCCC;
+	-webkit-border-radius: 10px;
+}
+
+
+/*
+ * The css can used everyWhere.
+ */
+
+.disabled {
+	cursor: not-allowed;
+}
+
+html {
+	height: 100%;
+}
+
+* {
+	font-family: "微软雅黑";
+}
+
+body {
+	background: #eaeaea;
+	height: 100%;
+}
+
+.am-g {
+	width: 100% !important;
+	padding: 0px !important;
+	height: 100%;
+}
+
+.global-tools {
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	z-index: 999;
+}
+
+.global-tools #go-top {
+	display: none;
+	cursor: pointer;
+}
+
+@media screen and (max-width : 640px) {
+	#userinfo {
+		margin: 0px;
+		width: 100%;
+		background: #fff;
+		padding: 0px !important;
+		overflow: hidden;
+		height: 560px;
+	}
+}
+
+@media screen and (min-width : 640px) {
+	#userinfo {
+		height: 100%;
+		position: fixed;
+		background: #fff;
+		padding: 0px !important;
+	}
+}
+
+.bigImg {
+	background: #000;
+	height: 180px;
+	opacity: 0.7;
+	background: url(../img/bigImg.jpg) center;
+	background-size: cover;
+}
+
+.userinfo-view {
+	width: 100%;
+	position: absolute;
+	top: 115px;
+	text-align: center;
+}
+
+.userinfo-view .head {
+	height: 130px;
+}
+
+.userinfo-view .head img {
+	width: 130px;
+	height: 130px;
+	display: inline-block;
+	border-radius: 50%;
+	border: solid 5px #fff;
+}
+
+.userinfo-view .name {
+	font-size: 30px;
+	margin: 10px 0px;
+}
+
+.userinfo-view .des {
+	font-size: 12px;
+	margin: 10px 0px;
+	color: #999;
+}
+
+.userinfo-view .menu {
+	margin: 50px 0px;
+}
+
+.userinfo-view .sns {
+	margin: 30px 0px 10px 0px;
+}
+
+#menu-write {
+	display: none;
+}
+
+article {
+	background: #fff;
+	margin: 15px 0px;
+}
+
+.article-time {
+	color: #999;
+	float: right;
+	margin: 20px;
+}
+
+.article-time #blog-edit {
+	display: none;
+}
+
+.article-time i {
+	display: inline-block;
+	margin: 0px 5px 0px 10px;
+}
+
+.article-head {
+	font-size: 25px;
+	border-left: solid 5px #000;
+	padding: 5px 0px 5px 15px;
+}
+
+.article-head a {
+	color: #000;
+}
+
+.article-head a:hover {
+	color: #337ab7;
+	text-decoration: none;
+}
+
+.article-body {
+	padding: 20px;
+	font-size: 14px;
+}
+
+.article-body h1,
+h2,
+h3 {
+	font-weight: bold;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 5px;
+}
+
+.article-body h4,
+h5,
+h6 {
+	font-weight: bold;
+}
+
+.article-body h1 {
+	font-size: 26px;
+}
+
+.article-body h2 {
+	font-size: 24px;
+}
+
+.article-body h3 {
+	font-size: 20px;
+}
+
+.article-body h4 {
+	font-size: 18px;
+}
+
+.article-body h5 {
+	font-size: 16px;
+}
+
+.article-body h6 {
+	font-size: 14px;
+}
+
+.article-body blockquote {
+	font-size: 14px;
+	border-left: 5px solid #657b83;
+	background: #f6f6f6;
+	padding: 10px 15px;
+}
+
+.article-body p {
+	line-height: 18px;
+	text-indent: 28px;
+}
+
+.article-body blockquote p {
+	text-indent: 0px;
+}
+
+.article-body img {
+	max-width: 90%;
+}
+.article-body a:after{
+	  content: "\f08e";
+	  font-family: "FontAwesome";
+	  font-size:7px;
+	  color:#009CDA;
+	  margin-left: 4px;
+	  text-decoration: none;
+}
+.article-body #cyReward{
+	text-align: center;
+}
+
+.article-body #SOHUCS{
+	margin: 8px;
+}
+
+.article-foot {
+	padding: 10px;
+}
+
+.article-foot i {
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.SOHUCS{
+	background: #fff !important;
+	padding: 10px !important;
+}
+
+#blog-master {
+	display: inline-block;
+	float: right;
+}
+
+.am-alert {
+	display: none;
+}
+
+
+/**/
+
+#error-404,
+#error-nothing {
+	margin: 20% 20px 0px 20px;
+	display: block !important;
+}
