@@ -3,6 +3,9 @@
 ![ui](https://img.shields.io/badge/ui-amazeui-brightgreen.svg)
 ![baas](https://img.shields.io/badge/baas-firebase-brightgreen.svg)
 ![baas](https://img.shields.io/badge/baas-野狗-brightgreen.svg)
+![user](https://img.shields.io/badge/user-1.8k-green.svg)
+
+
 # 为何这么屌？
 不需要`php`也不需要`mysql`，更不需要每次更新博文都要用命令来生成静态的文件。
 
