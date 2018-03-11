@@ -3,7 +3,7 @@
 ![ui](https://img.shields.io/badge/ui-amazeui-brightgreen.svg)
 ![baas](https://img.shields.io/badge/baas-firebase-brightgreen.svg)
 ![baas](https://img.shields.io/badge/baas-野狗-brightgreen.svg)
-![user](https://img.shields.io/badge/user-1.8k-green.svg)
+![user](https://img.shields.io/badge/user-1.8k-yellow.svg)
 
 
 # 为何这么屌？
