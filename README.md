@@ -1,8 +1,8 @@
 # KuBlog
 ![kernel](https://img.shields.io/badge/kernel-vue-brightgreen.svg)
 ![ui](https://img.shields.io/badge/ui-amazeui-brightgreen.svg)
-![database](https://img.shields.io/badge/database-firebase-brightgreen.svg)
-
+![baas](https://img.shields.io/badge/database-firebase-brightgreen.svg)
+![baas](https://img.shields.io/badge/database-野狗-brightgreen.svg)
 # 为何这么屌？
 不需要`php`也不需要`mysql`，更不需要每次更新博文都要用命令来生成静态的文件。
 
