@@ -1,27 +1,22 @@
-# blog
+# KuBlog
+![kernel](https://img.shields.io/badge/kernel-vue-brightgreen.svg)
+![ui](https://img.shields.io/badge/ui-amazeui-brightgreen.svg)
+![database](https://img.shields.io/badge/database-firebase-brightgreen.svg)
 
-> A Vue.js project
+# 为何这么屌？
+不需要`php`也不需要`mysql`，更不需要每次更新博文都要用命令来生成静态的文件。
 
-## Build Setup
+但是，你还是能在线写博文，还是可以弄用户登录，没有权限的人，是不能写博文的！
 
-``` bash
-# install dependencies
-npm install
+# 准备
+1. 请先在你的电脑上安装好`vue脚手架`。不安也没关系，在本项目目录下，运行： `npm install` 也可以把vue安装到本项目中。
+2. 注册一个`fireBase`（国外）或者 `野狗`（国内）Baas平台的账号，这个就是要代替传统的数据库。
 
-# serve with hot reload at localhost:8080
-npm run dev
+# 开始修改
+1. 你要修改的部分：`src`目录下，各页面在`components`中。（如果看不懂，请先学`vue`）
+2. 接下来要做的事情，就是写前端页面了，数据的交互，用js，`fireBase` 和 `野狗` 都有文档的。
+3. 你可以一边修改，一边看结果，在命令行中运行 `npm run dev` ，浏览器能实时预览你的变动。
 
-# build for production with minification
-npm run build
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
-```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+# 发布
+1. 将项目打包成静态文件，运行 `npm run build` ，在 `dist` 目录中就有了最终的文件。
+2. 将生成的文件上传到你服务器吧！
